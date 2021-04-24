@@ -1,3 +1,4 @@
+package homework_24042021;
 import java.util.Scanner;
 
 public class ScoreGrade {
