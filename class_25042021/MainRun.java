@@ -20,6 +20,7 @@ public class MainRun {
         System.out.println("obj2.x+obj2.y = " + obj2.z);
         System.out.println("obj1.x = " + obj1.x + " " + "obj2.x = " + obj2.x);
         System.out.println("obj2.z = " + obj2.z);
+        System.out.println(obj1);
         /* test input */
         //  Scanner value = new Scanner(System.in);
         // obj2.price = -1;
