@@ -8,6 +8,8 @@ public class MainRun {
 
         SuperClass obj1 = new SuperClass();
         SubClass obj2 = new SubClass();
+        SuperClass obj3 = new SuperClass(10, 20, 30);
+        SuperClass obj4 = new SuperClass(555);
 
         obj1.lineA();
         obj2.lineA();
@@ -18,6 +20,9 @@ public class MainRun {
 
         System.out.println(obj1.x + " : " + obj2.x);
         obj2.printA(111);
+
+        System.out.println(obj1.x + " : " + obj3.x);
+        System.out.println(obj4.x + " : " + obj4.y);
 
         /* 9.00 AM - 10.00 AM */
         // SuperClass obj1;

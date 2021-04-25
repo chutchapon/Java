@@ -1,12 +1,24 @@
 public class SuperClass {
     /* Attribute */
     int x, y, z;
+    /* default = 0 */
 
     /* Constructor Method */
     SuperClass() {
         this.x = -1;
         this.y = -2;
         this.z = -3;
+    }
+
+    /* Overload Method */
+    SuperClass(int x, int y, int z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
+    SuperClass(int x) {
+        this.x = x;
     }
 
     /* toString */
