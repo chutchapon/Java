@@ -13,31 +13,15 @@ public class MainRun {
         System.out.println("x+y = " + (obj1.x + obj1.y));
         /* can create and build */
         SuperClass obj2 = new SuperClass();
-        obj2.lineA(); 
-        obj2.x = 100; 
-        obj2.y = 200; 
+        obj2.lineA();
+        obj2.x = 100;
+        obj2.y = 200;
         obj2.z = obj2.x + obj2.y;
         System.out.println("obj2.x+obj2.y = " + obj2.z);
         System.out.println("obj1.x = " + obj1.x + " " + "obj2.x = " + obj2.x);
         System.out.println("obj2.z = " + obj2.z);
         System.out.println(obj1);
-        /* test input */
-        //  Scanner value = new Scanner(System.in);
-        // obj2.price = -1;
-        // obj2.sum = 0;
-        // do {
-        //     while (obj2.price != 0) {
-        //         obj1.lineA();
-        //         System.out.print("Enter price (0 is End Program ) : ");
-        //         obj2.price = value.nextInt();
-        //         obj2.sum = obj2.sum + obj2.price;
-        //         if (obj2.price < 0) {
-        //             System.out.print("Enter price > 0 " + "\n");
-        //             obj1.lineA();
-        //         }
-        //         obj1.lineA();
-        //     }
-        // } while (obj2.price != 0); /* stop */
-        //  System.out.println("sumation of price : " + obj2.sum); 
+        System.out.println(obj1.add());
+        obj1.plus(5);
     }
 }
