@@ -16,5 +16,6 @@ public class MainRun {
         obj2.y = 200;
         obj2.z = obj2.x + obj2.y;
         System.out.println("obj2.x+obj2.y = " + obj2.z);
+        System.out.println(obj1.x + " " + obj2.x);
     }
 }
