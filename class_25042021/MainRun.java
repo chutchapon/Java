@@ -11,5 +11,10 @@ public class MainRun {
         System.out.println("x+y = " + (obj1.x + obj1.y));
         /* can create and build */
         SuperClass obj2 = new SuperClass();
+        obj2.lineA();
+        obj2.x = 100;
+        obj2.y = 200;
+        obj2.z = obj2.x + obj2.y;
+        System.out.println("obj2.x+obj2.y = " + obj2.z);
     }
 }
