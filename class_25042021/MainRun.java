@@ -4,13 +4,23 @@ public class MainRun {
 
     public static void main(String[] args) {
 
-        // SuperClass obj1;
+        /* 10.00 AM - 12.00 AM */
 
         SuperClass obj1 = new SuperClass();
-        SuperClass obj2 = new SubClass();
+        SubClass obj2 = new SubClass();
 
         obj1.lineA();
         obj2.lineA();
+
+        obj1.lineA('*');
+        obj1.lineA('%');
+        obj2.lineA('*', '$');
+
+        System.out.println(obj1.x + " : " + obj2.x);
+        obj2.printA(111);
+
+        /* 9.00 AM - 10.00 AM */
+        // SuperClass obj1;
 
         /* create SuperClass */
 

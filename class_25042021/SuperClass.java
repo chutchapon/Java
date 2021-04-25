@@ -20,6 +20,14 @@ public class SuperClass {
         System.out.println("----------------------");
     }
 
+    /* Overload Method */
+    void lineA(char ch) {
+        for (int i = 1; i <= 16; i++) {
+            System.out.print(ch);
+        }
+        System.out.println();
+    }
+
     int add() {
         return this.x + this.y;
     }
