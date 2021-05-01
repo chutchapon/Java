@@ -11,8 +11,11 @@ public class MainRun {
         // SubClass obj2 = new SubClass();
         // obj2.setA(20);
         // System.out.println("a = " + obj2.getA());
+        /* login Authentication */
+        // SubClass obj2 = new SubClass();
+        // obj2.login("admin");
+        // System.out.println("Username : " + obj2.getUserName());
         SubClass obj2 = new SubClass();
-        obj2.login("admin");
-        System.out.println("Username : " + obj2.getUserName());
+        obj2.exeptions();
     }
 }
