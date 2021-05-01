@@ -8,8 +8,11 @@ public class MainRun {
         // SubClass obj2 = new SuperCLass();
         // obj2.a = 10;
         // System.out.println("a = " + obj2.a);
+        // SubClass obj2 = new SubClass();
+        // obj2.setA(20);
+        // System.out.println("a = " + obj2.getA());
         SubClass obj2 = new SubClass();
-        obj2.setA(20);
-        System.out.println("a = " + obj2.getA());
+        obj2.login("admin");
+        System.out.println("Username : " + obj2.getUserName());
     }
 }
