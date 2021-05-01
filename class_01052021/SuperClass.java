@@ -4,12 +4,13 @@ public class SuperClass {
     // private is modifier
 
     // setter getter method
-    void setA(int a) {
+    public void setA(int a) {
         this.a = a;
     }
 
-    getA(){
-        return a ;
+    public int getA() {
+        // return a;
+        return add4ToA();
     }
 
     private int add4ToA() {
