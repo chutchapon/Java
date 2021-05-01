@@ -11,4 +11,8 @@ public class SuperClass {
     getA(){
         return a ;
     }
+
+    private int add4ToA() {
+        return this.a + 3;
+    }
 }
