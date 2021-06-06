@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+
+<AnchorPane fx:controller="JavaFX01.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ColorPicker fx:id="colorPicker" layoutX="300.0" layoutY="52.0" onAction="#handleColorPicker" prefHeight="26.0" prefWidth="242.0" />
+        <Circle fx:id="circle" fill="DODGERBLUE" layoutX="142.0" layoutY="173.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+    </children>
+</AnchorPane>
